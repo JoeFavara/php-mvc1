@@ -46,13 +46,13 @@ First, copy this repo into a public accessible folder on your server.
 Common techniques are a) downloading and extracting the .zip / .tgz by hand, b) cloning the repo with git (into var/www)
 
 ```
-git clone https://github.com/JoeFavara/php-mvc.git /var/www
+git clone https://github.com/JoeFavara/php-mvc1.git /var/www
 ```
 
 or c) getting the repo via Composer (here we copy into var/www)
 
 ```
-composer create-project JoeFavara/php-mvc /var/www dev-master
+composer create-project JoeFavara/php-mvc1 /var/www dev-master
 ```
 
 1. Install mod_rewrite, for example by following this guideline:
@@ -76,7 +76,7 @@ RewriteBase /sub-folder/
 
 4. Edit the *application/config/config.php*, change this line
 ```php
-define('URL', 'http://127.0.0.1/php-mvc/');
+define('URL', 'http://127.0.0.1/php-mvc1/');
 ```
 to where your project is. Real domain, IP or 127.0.0.1 when developing locally. Make sure you put the sub-folder
 in here (when installing in a sub-folder) too, also don't forget the trailing slash !
@@ -106,7 +106,7 @@ You can also find these tutorial pictures in the *_tutorial* folder.
 
 Then please also have a look on ...
 
-#### My other project php-login
+#### My other project
 
 Some of my earlier PHP explorations with DAO:
 
