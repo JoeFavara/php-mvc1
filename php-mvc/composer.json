@@ -1,0 +1,21 @@
+{
+    "name": "JoeFavara/php-mvc",
+    "type": "project",
+    "description": "A simple PHP MVC boilerplate",
+    "keywords": ["mvc", "skeleton", "boilerplate", "naked", "barebone", "application"],
+    "homepage": "https://github.com/JoeFavara/php-mvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JoeFavara",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/JoeFavara/php-mvc/issues",
+        "source": "https://github.com/JoeFavara/php-mvc"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
